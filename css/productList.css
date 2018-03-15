@@ -1,0 +1,356 @@
+/*轮播图和热卖畅销*/
+/*热卖畅销*/
+.banner1_hotSale{
+	height: 430px;
+}
+.banner1_hotSale .hotSale{
+	width: 200px;
+	height: 432px;
+}
+.banner1_hotSale .hotSale .hotSale_mainTitle{
+	width: 200px;
+	height: 30px;
+	color: #fff;
+	background: #93d46f;
+	line-height: 30px;
+	text-indent: 8px;
+}
+.banner1_hotSale .hotSale .hotSale_title{
+	width: 200px;
+	height: 42px;
+	border-bottom: 1px solid #b3b3b3;
+	overflow: hidden;
+	position: relative;
+}
+
+.banner1_hotSale .hotSale .hotSale_title img{
+	display: inline-block;
+	width: 88px;
+	height: 102px;
+	margin: 0 8px;
+}
+.banner1_hotSale .hotSale .hotSale_title .hotSaleTitle{
+	width: 96px;
+	height: 42px;
+	line-height: 68px;
+	
+}
+.banner1_hotSale .hotSale .hotSale_title .hotSale_num{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	
+	position: absolute;
+	top: 0;
+	right:0;
+}
+.banner1_hotSale .hotSale .hotSale_con {
+	width: 200px;
+	height: 143px;
+	position: relative;
+	border-bottom: 1px solid #b3b3b3;
+}
+.banner1_hotSale .hotSale .hotSale_con img{
+	display: inline-block;
+	width: 88px;
+	height: 102px;
+	margin: 20px 8px;
+}
+.banner1_hotSale .hotSale .hotSale_con .hotSaleCon{
+	width: 96px;
+	height: 122px;
+	margin-top: 20px;
+}
+.banner1_hotSale .hotSale .hotSale_con .hotSale_num{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	
+	position: absolute;
+	top: 0;
+	right:0;
+}
+/*广告图*/
+/*.banner2{
+	width: 1200px;
+}*/
+.banner2 img{
+	width: 1200px;
+	height: 90px;
+}
+/*乐购·图书折扣区*/
+.discount .discount_title{
+	width: 1200px;
+	border-bottom:6px solid #f60;
+}
+.discount .discount_title p{
+	width: 220px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.discount ul{
+	width: 1240px;
+	height: 520px;
+}
+.discount ul li{
+	width: 208px;
+	height: 260px;
+	
+	float: left;
+	margin-right: 40px;
+}
+.discount ul li .discount_pic{
+	text-align: center;
+}
+.discount ul li .discount_pic .xingxing_pic{
+	width: 150px;
+	height: 150px;
+	
+}
+.discount ul li .discount_pic .xingxing_pic img{
+	width: 150px;
+	height: 150px;
+}
+.discount ul li .rebate{
+	position: relative;
+}
+.discount ul li .rebate .rebate_square{
+	width: 75px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	color: #fff;
+	font-size: 16px;
+	background: #f42a0d;
+}
+.discount ul li.discount_current{
+	background: #f2f2f2;
+}
+.discount ul li .rebate .rebate_sanjiao:after{
+	content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    border: solid 12px transparent;
+    border-right-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 51px;
+}
+.discount ul li .rebate .rebate_sanjiao.current:after{
+	content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    border: solid 12px transparent;
+    border-right-color: #f2f2f2;
+    position: absolute;
+    top: 0px;
+    left: 51px;
+}
+/*新书上架*/
+/*图书 电子书*/
+.newBook{
+	height: 546px;
+	width: 1200px;
+}
+.newBook .common_title p span{
+	display: inline-block;
+	width: 44px;
+	height: 42px;
+	
+	text-align: center;
+	line-height: 42px;
+	
+	font-size: 28px;
+	color:#fff;
+	background: #ff6700;
+	
+}
+
+.newBook .newBookCon{
+	width: 900px;
+    height: 500px;
+	border-right:2px solid #e6e6e6; 
+	border-left:2px solid #e6e6e6; 
+	border-bottom:2px solid #e6e6e6; 
+}
+
+.newBook .newBookCon .newBookCon_list{
+	width: 160px;
+	height:230px;
+	margin-left: 20px;
+	padding-top:20px;
+
+}
+.newBook .newBookCon .newBookCon_list img{
+	width: 110px;
+	height: 144px;
+}
+.newBook .newBookRight{
+	width: 280px;
+	height: 504px;
+	border:2px solid #e6e6e6;
+	margin-top: 40px;
+	margin-left: 12px;
+}
+.newBook .newBookRight>p{
+	line-height: 36px;
+}
+
+.newBook .newBookRight li .list{
+    width: 270px;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 10px;
+}
+.newBook .newBookRight li .num{
+	width: 26px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+}
+.newBook .newBookRight li .listCon{
+	width: 270px;
+	height: 150px;
+	padding-left: 10px;
+}
+
+.newBook .newBookRight li .list .hot_list{
+	width: 244px;
+	height: 42px;
+	line-height: 42px;
+	text-indent: 12px;
+	border-bottom:2px solid #e6e6e6; 
+}
+ 
+.newBook .newBookRight li .listCon .hot_con{
+	width: 244px;
+	height: 146px;
+    border-bottom:2px solid #e6e6e6; 
+}
+.newBook .newBookRight li .listCon .hot_con .list_pic{
+	width: 114px;
+	height: 146px;
+}
+.newBook .newBookRight li .listCon .hot_con .list_pic img{
+	width: 114px;
+	height: 146px;
+}
+.newBook .newBookRight li .hot_con .list_con{
+    width: 100px;
+    height: 140px;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+/*独家提供*/
+.exclusive_provision .common_title p span{
+	display: inline-block;
+	width: 44px;
+	height: 42px;
+	
+	text-align: center;
+	line-height: 42px;
+	
+	font-size: 28px;
+	color:#fff;
+	background: #ff6700;
+	
+}
+.exclusive_provision .exclusive_provision_list li{
+	float: left;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	font-family: "黑体";
+}
+.exclusive_provision .exclusive_provision_list li.current{
+	background: #fd6801;
+	color: #fff;
+}
+.exclusive_provision .exclusive_provisionCon{
+	width: 1200px;
+    height: 532px;
+    border-bottom: solid 2px #e6e6e6;
+}
+
+.exclusive_provision .exclusive_provisionCon .exclusive_provisionCon_list{
+	width: 180px;
+	height:230px;
+	margin-left: 20px;
+	padding-top:20px;
+
+}
+.exclusive_provision .exclusive_provisionCon .exclusive_provisionCon_list img{
+	width: 126px;
+	height: 144px;
+}
+/*猜你喜欢*/
+.like .common_title p span{
+	display: inline-block;
+	width: 44px;
+	height: 42px;
+	
+	text-align: center;
+	line-height: 42px;
+	
+	font-size: 28px;
+	color:#fff;
+	background: #ff6700;
+	
+}
+
+.like .likeCon{
+	width: 1200px;
+    height: 500px;
+    border-bottom: solid 2px #e6e6e6;
+}
+
+.like .likeCon .likeCon_list{
+	width: 180px;
+	height:230px;
+	margin-left: 20px;
+	padding-top:20px;
+
+}
+.like .likeCon .likeCon_list img{
+	width: 126px;
+	height: 144px;
+}
+/*人文社科精选*/
+.social_science{
+	padding:34px 14px 26px 14px;
+}
+.social_science li{
+	height: 100px;
+	width: 195px;
+	float: left;
+}
+.social_science li .social_science_con{
+	width: 112px;
+}
+.social_science li .social_science_con .agio{
+	width: 100px;
+	height:20px;
+	
+	text-align: center;
+	line-height: 20px;
+	
+	border-radius: 50px;
+	font-size: 14px;
+	color: #fff;
+	background:  #f42a0d;
+}
+.social_science li .social_science_pic{
+	width: 66px;
+	height:92px ;
+}
+.social_science li .social_science_pic img{
+	width: 66px;
+	height:92px ;
+}

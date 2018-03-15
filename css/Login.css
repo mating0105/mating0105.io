@@ -1,0 +1,183 @@
+/*头部*/
+.head .legochina{
+	margin-left: 258px;
+}
+.header .login{
+	font-size:30px;
+	font-family: "黑体";
+	position: relative;
+}
+.header .login .logo{
+	width: 258px;
+	height:105px;
+	color: #fff;
+	
+	position: absolute;
+	top: -30px;
+    left: 0;
+    
+	line-height: 105px;
+	text-indent: 150px;
+	background:url(../img/otherLogo.gif) no-repeat 0px 0px;
+}
+.header .login p:last-of-type{
+	height: 75px;
+	line-height: 75px;
+	margin-left: 288px;
+	
+}
+/*内容*/
+.loginBox{
+	height:500px ;
+	background:  #e93854;
+	font-family: "黑体";
+	
+}
+.loginBox .login_box{
+	height:500px ;
+	margin:0 auto;
+	position: relative;
+	background: url(../img/login_1.jpg) no-repeat;
+}
+.loginBox .login_box .login_subBox{
+	width: 350px;
+	height: 370px;
+	background: #fff;
+	
+	position: absolute;
+	top: 66px;
+	right:100px ;
+}
+.loginBox .login_box .login_subBox .login_menu{
+	padding: 15px 0px;
+	border-bottom: 1px solid #f6f6f6;
+}
+.loginBox .login_box .login_subBox .login_menu li{
+	width: 174px;
+	height: 26px;
+	text-align: center;
+	line-height:26px;
+	
+	font-size: 22px;
+	color: #666;
+	float: left;
+}
+.loginBox .login_box .login_subBox .login_menu li:first-of-type{
+	border-right: 1px solid #f6f6f6;
+}
+.loginBox .login_box .login_subBox .login_menu li.current{
+	color: #f60;
+	font-weight:bold ;
+}
+/*扫码登录*/
+.loginBox .login_box .login_sweep{
+	width: 316px;
+	height: 170px;
+	margin: 54px 0px 0px 24px;
+	line-height:170px;
+}
+.loginBox .login_box .login_sweep .two_cold{
+	position: relative;
+	top: 0;
+	left: 84px;
+}
+.loginBox .login_box .login_sweep .sweep{
+	margin-left: 16px;
+	display: none;
+}
+/*账户登录*/
+.loginBox .login_box .login_account_box{
+	height: 274px;
+}   
+	 
+@font-face{
+	font-family:iconfont;
+	src:url(../font/font_1451959379_8626566.eot);
+    src:url(../font/font_1451959379_8626566.eot) format('embedded-opentype'),
+    url(../font/font_1451959379_8626566.woff) format('woff'),
+    url(../font/font_1451959379_8626566.ttf) format('truetype'),
+    url(../font/font_1451959379_8626566.svg#iconfont) format('svg');
+}
+
+.login_account_box .taobao_font{
+	font-family: 'iconfont';
+	font-size: 22px;
+}
+.loginBox .login_box .login_account_box ul{
+	border-bottom: 1px solid #e6e6e6;
+	padding:40px 0px 0px 30px;
+}
+.loginBox .login_box .login_account_box .yhm_mima{
+	position: relative;
+	
+}
+.loginBox .login_box .login_account_box .yhm_mima input{
+	 width: 290px;
+	 height: 40px;
+	 line-height: 40px;
+	 text-indent: 52px;
+	 
+}
+.loginBox .login_box .login_account_box .yhm_mima span{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	
+	background: #f3f3f3;
+	
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+.loginBox .login_box .login_account_box .checked_box{
+	line-height: 12px;
+	margin-top: 12px;
+	width: 290px;
+	color: #4c4c4c;
+}
+.loginBox .login_box .login_account_box .checked_box a{
+	color: #4c4c4c;
+}
+.loginBox .login_box .login_account_box .submit{
+	width: 290px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	
+	border: none;
+	background: #f60;
+	color: #fff;
+	font-size: 24px;
+	font-family: "黑体";
+	
+	margin-bottom: 30px;
+}
+.loginBox .login_box .login_account_box>p{
+	width: 350px;
+	line-height: 40px;
+	text-indent: 20px;
+	background: url(../img/icon_03.jpg) no-repeat 128px 12px;
+}
+
+
+/*尾部*/
+.footer .footer_con .copyright{
+	height: 18px;
+	line-height: 18px;
+	margin:26px auto 16px auto;
+    padding-right: 214px;
+    padding-left: 216px;
+}
+.footer .footer_con .copyright li{
+	float: left;
+	padding: 0px 20px;
+	border-right:1px solid #888;
+}
+.footer .footer_con .copyright li:last-of-type{
+	border-right:none;
+}
+.footer .footer_con .copyright_con{
+	text-align: center;
+}

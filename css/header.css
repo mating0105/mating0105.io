@@ -1,0 +1,82 @@
+/*顶部*/
+.head{
+	height:30px;
+	line-height: 30px;
+	background: #101010;
+}
+.head .legochina{
+	margin-left: 202px;
+}
+/*搜索框*/
+.search{
+	width: 1200px;
+	height: 42px;
+}
+.search .shopcar_order li a{
+	display: inline-block;
+	width: 100px;
+	height: 32px;
+	line-height: 32px;
+}
+.search .shopcar_order .shopcar{
+	height: 34px;
+    text-indent: 38px;
+    color: #fff;
+    background: #f60 url(../img/bgicon.png) no-repeat 0px -44px;
+}
+.search .shopcar_order .order{
+	color: #808080;
+	background:#ebebeb;
+	text-align: center;
+	border:1px solid #ccc;
+}
+.search .search_box{
+	width: 388px;
+	height: 30px;
+	text-indent: 10px;
+	border: 2px solid #f60;
+}
+.search .search_submit{
+	width: 48px;
+	height: 34px;
+	background:#f60 url(../img/bgicon.png) no-repeat -4px -4px;
+	border: 2px solid #f60;
+	margin-right: 40px;
+}
+/*主导航*/
+.nav{
+	height: 30px;
+	margin-top: 4px;
+}
+.nav .logo{
+	width: 200px;
+	height: 30px;
+	position: relative;
+}
+.nav .logo img{
+	width: 200px;
+	height: 112px;
+	position: absolute;
+	top:-82px;
+    left: 0;
+}
+
+.nav .main_nav{
+	width: 1000px;
+	height: 30px;
+	
+}
+	
+.nav .main_nav li{
+	height: 30px;
+	float: left;
+	margin-left: 30px;
+	line-height: 30px;
+}
+
+.nav .main_nav li a{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "黑体";
+	color: #313131;
+}

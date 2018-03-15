@@ -1,0 +1,135 @@
+/*头部*/
+.header{
+	border-bottom: solid 2px #ececec;
+}
+.head .legochina{
+	margin-left: 258px;
+}
+.header .login{
+	font-size:30px;
+	font-family: "黑体";
+	position: relative;
+}
+.header .login .logo{
+	width: 258px;
+	height:105px;
+	color: #fff;
+	
+	position: absolute;
+	top: -30px;
+    left: 0;
+    
+	line-height: 105px;
+	text-indent: 150px;
+	background:url(../img/otherLogo.gif) no-repeat 0px 0px;
+}
+.header .login p:last-of-type{
+	height: 75px;
+	line-height: 75px;
+	margin-left: 288px;
+	
+}
+
+/*内容*/
+.registered{
+	padding-bottom: 40px;
+	border-bottom: 2px solid #e6e6e6;
+}
+.registered li{
+	width:400px;
+	height: 46px;
+	margin: 0 auto;
+	border: 1px solid #d9d9d9;
+	line-height: 46px;
+	margin-top: 48px;
+	font-family: "黑体";
+}
+.registered li span{
+	display: inline-block;
+	width: 124px;
+	height: 42px;
+	text-indent: 8px;
+	margin-top: 2px;	
+	line-height: 42px;
+	font-size: 22px;
+	color: #666;
+}
+.registered li input{
+	width: 266px;
+	height: 36px;
+	line-height: 46px;
+	border: 0;
+	font-size: 16px;
+	color: #e3e3e3;
+	
+}
+.registered li .yzm_pic{
+    width: 118px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+.registered li .vadidation{
+    width: 144px;
+}
+.registered li .vadidation_btn{
+	width: 118px;
+	height: 40px;
+	background: #e6e6e6;
+	color: #4d4d4d;
+	font-size: 16px;
+	border: none;
+	margin-bottom: 2px;
+}
+.registered .select{
+	height: 14px;
+	width:392px ;
+	color:#4d4d4d;
+	padding-left:8px ;
+	border: none;
+	margin-top: 14px;
+}
+.registered .select #select{
+	width: 14px;
+	height: 14px;
+	position: relative;
+    top: -14px;
+    left: 2px;
+}
+.registered .select .agreement{
+	height: 14px;
+	width: 300px;
+	font-size: 14px;
+	position: relative;
+    top: -62px;
+    left: 20px;
+}
+.registered .registered_btn{
+	width: 400px;
+	height:46px ;
+	border: none;
+	background: #f60;
+	color: #fff;
+	
+	text-align: center;
+	line-height: 46px;
+	font-size: 28px;
+}
+/*尾部*/
+.footer .footer_con .copyright{
+	height: 18px;
+	line-height: 18px;
+	margin:26px auto 16px auto;
+    padding-right: 214px;
+    padding-left: 216px;
+}
+.footer .footer_con .copyright li{
+	float: left;
+	padding: 0px 20px;
+	border-right:1px solid #888;
+}
+.footer .footer_con .copyright li:last-of-type{
+	border-right:none;
+}
+.footer .footer_con .copyright_con{
+	text-align: center;
+}

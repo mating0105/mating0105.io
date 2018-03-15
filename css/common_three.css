@@ -1,0 +1,103 @@
+/*设置当前样式*/
+.common_current{
+	color: #fff;
+	background: #f60 !important;
+}
+.common_three .common_title ul li{
+	float: left;
+	font-size: 16px;
+	font-family: "黑体";
+	width: 100px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	margin-left: 10px;
+	margin-top: 4px;
+}
+/*内容--左边*/
+.common_three .common_con{
+	height: 504px;
+	border-right: 2px solid #ccc;
+}
+
+.common_three .common_con .common_con_left{
+	width: 238px;
+	height: 500px;
+}
+.common_three .common_con .common_con_left p{
+	width: 238px;
+	height: 348px;
+}
+.common_three .common_con .common_con_left p img{
+	width: 238px;
+	height: 348px;
+}
+.common_three .common_con .common_con_left .subMenu{
+	height: 154px;
+	background: #f9f9f9;
+}
+.common_three .common_con .common_con_left .subMenu li{
+	width: 72px;
+	height: 22px;
+	
+	padding-left: 6px;
+	margin-top: 14px;
+	float: left;
+}
+/*内容--中间*/
+.common_three .common_con .common_con_center{
+	width: 432px;
+	height: 500px;
+}
+.common_three .common_con .common_con_center>div{
+	border-left: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	
+}
+
+
+.common_three .common_con .common_con_center .common_banner{
+	width: 430px;
+	height: 160px;
+}
+.common_three .common_con .common_con_center .common_banner img{
+	width: 430px;
+	height: 160px;
+}
+/*内容--右边*/
+.common_three .common_con .common_con_right{
+	width:528px;
+}
+.common_three .common_con .common_con_right li{
+	width:174px;
+	float: left;
+	border-left: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+}
+.common_three_list1{
+	height: 340px;
+}
+.common_three_list1 img{
+	width:174px;
+	height: 340px;
+}
+.common_three_list2{
+	height: 160px;
+}
+.common_three_list2 img{
+	width:174px;
+	height: 160px;
+}
+.common_three .common_brand{
+	height: 60px;
+	padding: 0 15px;
+}
+.common_three .common_brand li{
+	width:130px ;
+	height:62px ;
+	float: left;
+}
+.common_three .common_brand img{
+	width:130px ;
+	height:62px ;
+}

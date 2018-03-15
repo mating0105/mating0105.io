@@ -1,0 +1,394 @@
+/*左侧导航和轮播图*/
+/*左侧菜单*/
+.menu_banner{
+	position: relative;
+}
+
+.menu .main_menu{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+    text-indent: 20px;
+    background: #f3f3f3;
+    position: relative;
+}
+/*左侧菜单滑入时的样式*/
+.menu .menu_current{
+	width: 198px;
+	height: 36px;
+	text-indent: 20px;
+	line-height: 34px;
+	color: #f60;
+	background: #fff;
+	border: 1px solid #f60;
+	border-right: 1px solid #fff;
+	position: relative;
+	z-index:1000;
+	
+}
+.menu .son_menu{
+	width: 472px;
+	padding: 12px 70px 26px 38px;
+	border: 1px solid #f60;
+	position: absolute;
+	z-index:999;
+	top: 4px;
+	left: 199px;
+	background: #fff;
+	display: none;
+}
+.menu .son_menu dt{
+	height: 26px;
+	line-height:26px;
+	font-size: 14px;
+	color:#f60;
+	border-bottom:1px solid #e6e6e6;
+}
+
+.menu .son_menu .son_menu_title a{
+	color:#252525;
+	
+	height: 36px;
+	line-height:36px;
+	margin-right:38px;
+}
+
+.menu .son_menu dd{
+	height: 26px;
+	line-height:26px;
+}
+
+.menu .son_menu dd a{
+	color:#252525;
+	margin-right:4px;
+}
+/*乐购·今日推荐*/
+.tody_recommends .sonTitle{
+	color: #ff6700;
+}
+.tody_recommends .sonTitle span{
+	margin:0 6px;
+}
+.tody_recommends ul{
+	width:1188px;
+	height: 504px;
+	border-right:2px solid #ff6700;
+}
+.tody_recommends li{
+	width: 196px;
+    height: 250px;
+	float: left;
+	border-left:2px solid #ff6700;
+	border-bottom:2px solid #ff6700;
+	
+}
+.tody_recommends ul .recommends_picture{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
+.tody_recommends ul .recommends_picture img{
+	width: 150px;
+	height: 150px;
+}
+
+.tody_recommends ul .qianggou img{
+	width: 78px;
+	height: 25px;
+}
+
+.tody_recommends li p:last-of-type{
+	padding-left:8px ;
+}
+/*图书 电子书*/
+.ebook{
+	height: 488px;
+}
+.ebook .tabTitle li{
+	width: 98px;
+	height: 36px;
+	
+	text-align: center;
+	line-height: 36px;
+	
+	font-size: 16px;
+	float: left;
+	margin-top: 10px;
+	
+}
+
+.ebook .ebookCon .ebookConLeft{
+	width: 242px;
+	height: 436px;
+}
+.ebook .ebookCon .ebookConLeft p{
+	width: 242px;
+	height: 290px;
+}
+.ebook .ebookCon .ebookConLeft p img{
+	width: 242px;
+	height: 290px;
+}
+.ebook .ebookCon .ebookSubMenu{
+	width: 242px;
+	height: 150px;
+	background: #f9f9f9;
+}
+.ebook .ebookCon .ebookSubMenu li{
+	width: 72px;
+	height: 22px;
+	
+	padding-left: 8px;
+	margin-top: 14px;
+	float: left;
+}
+/*设置当前样式*/
+.ebook_current{
+	background: #ff6700;
+	color: #fff;
+}
+.ebook .ebookCon .ebookConRight{
+	width: 664px;
+    height: 440px;
+	border-right:2px solid #ccc; 
+}
+
+.ebook .ebookCon .ebookConRight .banner2{
+	width: 330px;
+	height:218px;
+	border-left:2px solid #ccc;
+	border-bottom:2px solid #ccc;
+	
+}
+.ebook .ebookCon .ebookConRight .ebookConRight_list{
+	width: 162px;
+	height:218px;
+	padding-left: 2px;
+	border-left:2px solid #ccc;
+	border-bottom:2px solid #ccc;
+}
+.ebook .ebookCon .ebookConRight .ebookConRight_list img{
+	width: 158px;
+	height: 116px;
+}
+
+.ebook .ebookRight {
+    width: 270px;
+    height: 442px;
+    margin-left: 15px;
+    margin-top: 40px;
+    border: 2px solid #e6e6e6;
+}
+.ebook .ebookRight>p{
+	line-height: 36px;
+}
+
+.ebook .ebookRight li span{
+	display: block;
+}
+.ebook .ebookRight li .no_border{
+	border-bottom: none !important;
+}
+
+.ebook .ebookRight li .list{
+    width: 260px;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 10px;
+}
+.ebook .ebookRight li .num{
+	width: 26px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+}
+.ebook .ebookRight li .listCon{
+	width: 260px;
+	height: 150px;
+	padding-left: 10px;
+}
+
+.ebook .ebookRight li .list .hot_list{
+	width: 234px;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 12px;
+	border-bottom: 2px solid #e6e6e6;
+}
+ 
+.ebook .ebookRight li .listCon .hot_con{
+	width: 234px;
+	height: 150px;
+	border-bottom: 2px solid #e6e6e6;
+}
+.ebook .ebookRight li .listCon .hot_con .list_pic{
+	width: 114px;
+	height: 150px;
+}
+.ebook .ebookRight li .listCon .hot_con .list_pic img{
+	width: 114px;
+	height: 150px;
+}
+.ebook .ebookRight li .hot_con .list_con{
+    width: 100px;
+    height: 140px;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+/*服装  户外运动   童装 童鞋 婴儿装样式在common_three.css*/
+/*家居日用*/
+.house_use .house_use_con{
+	height: 500px;
+	border-right:2px solid #ccc;
+}
+.house_use .house_use_con .house_use_left{
+	width:492px ;
+	border-left: 2px solid #ccc;
+}
+.house_use .house_use_con .house_use_left img{
+	width:492px ;
+	height: 500px;
+}
+.house_use .house_use_con .house_use_right{
+	width:704px ;
+}
+.house_use .house_use_con .house_use_right li{
+	width:168px ;
+	float: left;
+	
+	padding-left: 6px;
+	border-left:2px solid #ccc;
+	border-bottom:2px solid #ccc;
+}
+.house_use_list1{
+	height:338px ;
+}
+.house_use_list1 img{
+	width:168px ;
+	height: 338px;
+}
+.house_use_list2{
+	height: 158px;
+}
+.house_use_list2 img{
+	width:168px ;
+	height: 158px;
+}
+/*推广商品*/
+
+.extend .common_title ul{
+	margin-right: 18px;
+	margin-top: 20px;
+}
+.extend .common_title ul li{
+	width: 14px;
+	height: 14px;
+	background: #bfbfbf;
+	border-radius: 50%;
+	float: left;
+	margin-left: 10px;
+}
+.extend .extend_con{
+	height: 648px;
+	padding:12px 0px;
+}
+.extend .extend_con li{
+	width: 148px;
+	height: 240px;
+	margin:0px 20px 12px 12px;
+	padding: 30px;
+	float: left;
+}
+.extend .extend_con li img{
+	display: block;
+	width: 142px;
+	height: 150px;
+}
+.extend .extend_con li p{
+	margin-left: 6px;
+}
+.extend .extend_con .extend_con_current{
+	background: #f2f2f2;
+}
+.extend .extend_con .evaluate{
+	text-indent: 30px;
+	color: #7d7d7d;
+	background: url(../img/bgicon.png) no-repeat -2px -86px;
+}
+
+/*楼层滚动*/
+.floor{
+	position: fixed;
+	top: 170px;
+	left: 10px;
+	width: 40px;
+	white-space: nowrap;
+	display: none;
+}
+.floor li{
+	width: 0px;
+	padding-left: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: url(../img/fix_box_icon.png) no-repeat;
+	overflow: hidden;
+	
+}
+.floor .floor_book{
+	background-position: 0px -40px;
+}
+.floor .floor_cloth{
+	background-position: 0px -80px;
+}
+.floor .floor_outdoor{
+	background-position: 0px -120px;
+}
+.floor .floor_child{
+	background-position: 0px -160px;
+}
+.floor .floor_house{
+	background-position: 0px -200px;
+}
+.floor .floor_extend{
+	background-position: 0px -240px;
+}
+.floor .floor_top{
+	background-position: 0px -280px;
+}
+/*领券中心*/
+.voucher_center{
+	position: fixed;
+	top: 150px;
+	right:0px;
+}
+.voucher_center li{
+	margin: 0;
+	padding: 0;
+}
+.voucher_center li{
+	height: 40px;
+}
+.voucher_center li.voucher_center_core{
+	position: relative;
+	height: 101px;
+}
+.voucher_center li.voucher_center_core .qr_code{
+	position:absolute;
+	top: 0;
+	left: 39px;
+}
+/*搜索框固定到顶部*/
+.fixed_box{
+	width: 100%;
+	height: 60px;
+	background: rgba(0,0,0,0.6);
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.fixed_box form{
+	margin:14px 358px 0 0;
+}

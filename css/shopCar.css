@@ -1,0 +1,226 @@
+/*头部*/
+.head .legochina{
+	margin-left: 258px;
+}
+.head .welcome{
+	margin-right: 14px;
+}
+.header .settlement{
+	font-size:30px;
+	font-family: "黑体";
+	position: relative;
+}
+.header .settlement .logo{
+	width: 258px;
+	height:105px;
+	color: #fff;
+	
+	position: absolute;
+	top: -36px;
+    left: 0;
+    
+	line-height: 105px;
+	text-indent: 128px;
+	background:url(../img/otherLogo.gif) no-repeat 0px 0px;
+}
+.search .search_submit{
+	margin-right: 6px;
+}
+.drop_down_menu{
+	margin-top: 12px;
+	margin-right: 20px;
+}
+.drop_down_menu select{
+	outline: none;
+}
+/*内容*/
+.check_information .information_title{
+	width: 1200px;
+	height: 60px;
+	line-height:60px;
+	background: #f2f2f2;
+	font-size: 18px;
+	color: #808080;
+	
+	margin-top: 20px;
+	
+}
+.check_information li{
+	float: left;
+}
+.li1{
+	width: 242px;
+	margin-left: 20px;
+	
+}
+.li2{
+	width: 360px;
+}
+.li3{
+	width: 96px;
+	text-align: center;
+}
+.li4{
+	width: 130px;
+    padding-left: 80px;
+    text-align: center;
+}
+.li5{
+	width: 90px;
+	text-align: center;
+	font-size: 18px;
+}
+.li6{
+	width: 182px;
+	text-indent: 46px;
+}
+/*信息内容*/
+.information{
+	border-top: solid 6px #dfdfdf;
+	margin-top: 20px;
+}
+.information_con{
+	height: 176px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom:2px solid #e6e6e6;
+}
+.information_con li{
+	float: left;
+	font-size: 16px;
+	color:#4c4c4c ; 
+}
+.information_con .product_pic{
+	display: inline-block;
+	width:160px;
+	height: 160px;
+	padding:5px 0px 0px 5px;
+	border: 1px solid #e6e6e6;
+	margin-right: 28px;
+}
+.information_con .purchase_num button{
+	width: 26px;
+	height:26px ;
+	text-align: center;
+	line-height:22px ;
+	border: solid 1px #ccc;
+	background:none;
+	float: left;
+}
+.information_con .purchase_num input{
+	width: 74px;
+	height: 24px;
+	float: left;
+	text-align: center;
+	border: solid 1px #ccc;
+	border-left: none;
+	border-right: none;
+}
+.information_con .aperation button{
+	border: none;
+	background: none;
+	font-size: 16px;
+}
+.information_con .aperation a{
+	display: inline-block;
+	width: 182px;
+	text-indent: 46px;
+	color:#4c4c4c ; 
+}
+
+/*结算*/
+.jiesuan{
+	height: 58px;
+	border: 1px solid #ccc;
+	margin-top: 32px;
+	line-height: 58px;
+}
+.jiesuan .jiesuan_left button{
+	border: none;
+	background: none;
+	margin-left: 32px;
+}
+.jiesuan>button{
+	width: 130px;
+	height: 58px;
+	border: none;
+	text-align: center;
+	line-height:60px ;
+}
+
+
+
+/*猜你喜欢*/
+.guess_like .guess_like_title{
+	width: 1200px;
+	border-bottom:6px solid #f60;
+	margin-top: 38px;
+}
+.guess_like .guess_like_title p{
+	width: 124px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+}
+.guess_like ul{
+	width: 1240px;
+}
+.guess_like ul li{
+	width: 208px;
+	height: 260px;
+	
+	float: left;
+	margin-right: 40px;
+}
+.guess_like ul li .guess_like_pic{
+	text-align: center;
+}
+.guess_like ul li .guess_like_pic img{
+	width: 150px;
+	height: 150px;
+}
+.guess_like ul li .rebate{
+	position: relative;
+}
+.guess_like ul li .rebate .rebate_square{
+	width: 75px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	color: #fff;
+	font-size: 16px;
+	background: #f42a0d;
+}
+.guess_like ul li.guess_like_current{
+	background: #f2f2f2;
+}
+.guess_like ul li .rebate .rebate_sanjiao:after{
+	content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    border: solid 12px transparent;
+    border-right-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 51px;
+}
+.guess_like ul li .rebate .rebate_sanjiao.current:after{
+	content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    border: solid 12px transparent;
+    border-right-color: #f2f2f2;
+    position: absolute;
+    top: 0px;
+    left: 51px;
+}
+/*广告图*/
+/*.banner{
+	width: 1200px;
+}*/
+.banner img{
+	width: 1200px;
+	height: 90px;
+}

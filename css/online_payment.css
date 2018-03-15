@@ -1,0 +1,159 @@
+.head .legochina{
+	margin-left: 2px;
+}
+.head .logo{
+	width: 258px;
+	height:105px;
+	color: #fff;
+	font-size:30px;
+	font-family: "黑体";
+	line-height: 105px;
+	text-indent: 142px;
+	background: url(../img/otherLogo.gif) no-repeat;
+}
+/*订单详情*/
+.order_details p:last-of-type{
+	color: #1080e9;
+	text-decoration: underline;
+	font-family:"黑体"
+}
+/*付款提醒*/
+.remind_pay{
+	height: 60px;
+	background: #f2f2f2;
+	line-height: 60px;
+	font-size: 18px;
+}
+/*付款方式:乐购*/
+.payment_method{
+	height: 60px;
+	line-height: 60px;
+}
+.payment_method .payment_method_legou{
+	width: 124px;
+	height: 40px;
+	line-height: 40px;
+	
+	font-size: 22px;
+	background: #f60;
+	color: #fff;
+	padding-left: 26px;
+	margin-top: 10px;
+}
+.payment_method .bank_card{
+	background: #f2f2f2;
+	line-height: 96px;
+}
+
+.payment_method .bank_card .bankCard{
+	width: 122px;
+	height:32px;
+	text-align: center;
+	line-height: 32px;
+	
+	font-size: 18px;
+	background: #f2f2f2;
+	
+	margin-left: 64px;
+	position:relative;
+}
+.payment_method .bank_card td .current{
+	border: 1px solid #f60;
+}
+.payment_method .bank_card .selected{
+	width: 20px;
+	height: 16px;
+	text-align: center;
+	line-height:20px;
+	
+	background: #f60;
+	font-size: 12px;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.payment_method .bank_card #bandName{
+	width:302px ;
+	height:32px ;
+	border: solid 1px #bfbfbf;
+	font-size: 18px;
+	text-align: center;
+	line-height: 32px;
+	padding: 0 24px;
+	margin: 0px 26px;
+	
+}
+.payment_method .bank_card .add_card{
+	width: 120px;
+	height: 30px;
+	background: #999;
+	color: #fff;
+	border: none ;
+	font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+}
+.payment_method .bank_card .remove_card{
+	width: 120px;
+	height: 30px;
+	background: #999;
+	color: #fff;
+	border: none ;
+	font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+}
+/*立即支付*/
+.payment_method .payment_now input{
+	width:230px;
+	height: 60px;
+	font-size: 26px;
+	color: #fff;
+	background: #f60;
+	float: right;
+	border: none;
+	margin-top: 14px;
+	margin-bottom: 38px;
+}
+
+/*其他支付方式*/
+.payment_M_other{
+	line-height: 40px;
+	margin-top: 10px;
+}
+.payment_M_other .other_type{
+	width: 124px;
+	height: 40px;
+	line-height: 40px;
+	
+	font-size: 22px;
+	background: #76b0f5;
+	color: #fff;
+	padding-left: 26px;
+}
+.payment_M_other .payment_otherWay{
+	height:96px;
+	line-height: 96px;
+	background: #f2f2f2;
+	margin-top: 14px;
+}
+.payment_M_other .payment_otherWay li{
+	float: left;
+	font-size: 18px;
+}
+.payment_M_other .payment_otherWay li a{
+	/*display: inline-block;*/
+	border-right: 1px solid #898989;
+	color: #595959;
+	padding:0px 16px 0px 14px;
+	
+}
+/*广告图*/
+/*.banner{
+	width: 1200px;
+}*/
+.banner img{
+	width: 1200px;
+	height: 90px;
+}

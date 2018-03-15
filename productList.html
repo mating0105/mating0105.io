@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<!--引入重置样式-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<!--引入公共样式-->
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<!--引入头部样式-->
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<!--引入产品列表样式-->
+		<link rel="stylesheet" type="text/css" href="css/productList.css"/>
+		<!--引入尾部样式-->
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<!--引入插件样式-->
+		<link rel="stylesheet" type="text/css" href="css/slide.css"/>
+		<!--引入js文件-->
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/tyslide.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/productList.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		<!--顶部-->
+		<div class="header">
+			<!--整个顶部-->
+			<div class="head widthAuto">
+				<!--顶部版心-->
+				<div class="content clear">
+					<p class="legochina lefloat colorGrey fontSize18 fontFamily">legochina.cn</p>
+					<p class="colorGrey rigfloat fontSize14 marginRight10">欢迎光临<a href="index.html" class="colorOrange">乐购</a>,请<a href="Login.html" class="colorGrey">登录</a>\<a href="registered.html" class="colorOrange">注册</a></p>
+				</div>
+			</div>
+			<!--版心-->
+			<div class="content">
+				<!--搜索框-->
+			    <div class="search marginTop6 clear">
+			    	<ul class="shopcar_order clear rigfloat">
+						<li class="lefloat"><a href="shopCar.html" class="fontSize14 shopcar">购物车&nbsp;3</a></li>
+						<li class="lefloat"><a class="fontSize16 order marginRight10">我的订单</a></li>
+					</ul>
+			    	<form class="rigfloat clear">
+			    		<input class="search_box lefloat" type="text" placeholder="设计中的设计 原研哉" />
+					    <input class="search_submit lefloat" type="submit" value="" />
+			    	</form>
+				</div>
+				<!--导航栏-->
+				<div class="nav clear">
+					<!--logo-->
+					<p class="logo lefloat"><img src="img/LOGO.jpg"/></p>
+					<!--主导航-->
+					<ul class="main_nav clear lefloat">
+						<li><a href="">图书</a></li>
+						<li><a href="">电子书</a></li>
+						<li><a href="">原创文学</a></li>
+						<li><a href="">服装</a></li>
+						<li><a href="">运动户外</a></li>
+						<li><a href="">孕婴童</a></li>
+						<li><a href="">家居</a></li>
+						<li><a href="">创意文具</a></li>
+						<li><a href="">地方特产</a></li>
+						<li><a href="">海外购</a></li>
+						<li><a href="">电器城</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--内容-->
+		<div class="content">
+		    <!--轮播图和热卖畅销-->
+		    <div class="banner1_hotSale clear">
+		    	<!--轮播图-->
+		    	<div class="banner1 lefloat">
+		    		<!--轮播1-->
+					<div class="pptbox" id="boxAnimate_pro">
+						<ul class="innerwrapper clear">
+							<li>
+								<a href="#"><img src="images/banner1.jpg" /></a>
+							</li>
+							<li>
+								<a href="#"><img src="images/banner2.jpg" /></a>
+							</li>
+							<li>
+								<a href="#"><img src="images/banner3.jpg" /></a>
+							</li>
+							<li>
+								<a href="#"><img src="images/banner4.jpg" /></a>
+							</li>
+							<li>
+								<a href="#"><img src="images/banner5.jpg" /></a>
+							</li>
+							<li>
+								<a href="#"><img src="images/banner6.jpg" /></a>
+							</li>
+						</ul>
+						<ul class="controls clear">
+							<li class="current">1</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5</li>
+							<li>6</li>
+						</ul>
+						<span class="btnleft"></span>
+						<span class="btnright"></span>
+					</div>
+		    	</div>
+		    	<!--热卖畅销-->
+		    	<div class="hotSale lefloat">
+		    		<p class="hotSale_mainTitle">热卖畅销</p>
+		    		<ul>
+		    			<li class="clear">
+		    				<div class="hotSale_title clear displayNone">
+		    					<p class="hotSale_num bgRed colorWhile">1</p>
+		    					<img class="lefloat" src="img/index08_05.jpg"/>
+		    					<p class="lefloat hotSaleTitle">&lt;&lt;从你的世界路过&gt;&gt;</p>
+		    					
+		    				</div>
+		    				<div class="hotSale_con clear">
+		    					<p class="hotSale_num bgRed colorWhile">1</p>
+		    					<img class="lefloat" src="img/index08_05.jpg" />
+		    				    <p class="lefloat hotSaleCon">&lt;&lt;三体&gt;&gt;刘慈欣一场科幻的史诗风暴</p>
+		    				</div>
+		    			</li>
+		    			<li>
+		    				<div class="hotSale_title clear">
+		    					<p class="hotSale_num bgRed colorWhile">2</p>
+		    					<img class="lefloat" src="img/index08_05.jpg"/>
+		    					<p class="lefloat hotSaleTitle">&lt;&lt;从你的世界路过&gt;&gt;</p>
+		    					
+		    				</div>
+		    				<div class="hotSale_con clear displayNone">
+		    					<p class="hotSale_num bgRed colorWhile">2</p>
+		    					<img class="lefloat" src="img/index08_05.jpg" />
+		    				    <p class="lefloat hotSaleCon">&lt;&lt;三体&gt;&gt;刘慈欣一场科幻的史诗风暴</p>
+		    				</div>
+		    			</li>
+		    			<li>
+		    				<div class="hotSale_title clear">
+		    					<p class="hotSale_num bgRed colorWhile">3</p>
+		    					<img class="lefloat" src="img/index08_05.jpg"/>
+		    					<p class="lefloat hotSaleTitle">&lt;&lt;从你的世界路过&gt;&gt;</p>
+		    					
+		    				</div>
+		    				<div class="hotSale_con clear displayNone">
+		    					<p class="hotSale_num bgRed colorWhile">3</p>
+		    					<img class="lefloat" src="img/index08_05.jpg" />
+		    				    <p class="lefloat hotSaleCon">&lt;&lt;三体&gt;&gt;刘慈欣一场科幻的史诗风暴</p>
+		    				</div>
+		    			</li>
+		    			<li>
+		    				<div class="hotSale_title clear">
+		    					<p class="hotSale_num bgGrey colorWhile">4</p>
+		    					<img class="lefloat" src="img/index08_05.jpg"/>
+		    					<p class="lefloat hotSaleTitle">&lt;&lt;从你的世界路过&gt;&gt;</p>
+		    					
+		    				</div>
+		    				<div class="hotSale_con clear displayNone">
+		    					<p class="hotSale_num bgGrey colorWhile">4</p>
+		    					<img class="lefloat" src="img/index08_05.jpg" />
+		    				    <p class="lefloat hotSaleCon">&lt;&lt;三体&gt;&gt;刘慈欣一场科幻的史诗风暴</p>
+		    				</div>
+		    			</li>
+		    			<li>
+		    				<div class="hotSale_title clear">
+		    					<p class="hotSale_num bgGrey colorWhile">5</p>
+		    					<img class="lefloat" src="img/index08_05.jpg"/>
+		    					<p class="lefloat hotSaleTitle">&lt;&lt;从你的世界路过&gt;&gt;</p>
+		    					
+		    				</div>
+		    				<div class="hotSale_con clear displayNone">
+		    					<p class="hotSale_num bgGrey colorWhile">5</p>
+		    					<img class="lefloat" src="img/index08_05.jpg" />
+		    				    <p class="lefloat hotSaleCon">&lt;&lt;三体&gt;&gt;刘慈欣一场科幻的史诗风暴</p>
+		    				</div>
+		    			</li>
+		    			<li>
+		    				<div class="hotSale_title clear">
+		    					<p class="hotSale_num bgGrey colorWhile">6</p>
+		    					<img class="lefloat" src="img/index08_05.jpg"/>
+		    					<p class="lefloat hotSaleTitle">&lt;&lt;从你的世界路过&gt;&gt;</p>
+		    					
+		    				</div>
+		    				<div class="hotSale_con clear displayNone">
+		    					<p class="hotSale_num bgGrey colorWhile">6</p>
+		    					<img class="lefloat" src="img/index08_05.jpg" />
+		    				    <p class="lefloat hotSaleCon">&lt;&lt;三体&gt;&gt;刘慈欣一场科幻的史诗风暴</p>
+		    				</div>
+		    			</li>
+		    			<li>
+		    				<div class="hotSale_title clear">
+		    					<p class="hotSale_num bgGrey colorWhile">7</p>
+		    					<img class="lefloat" src="img/index08_05.jpg"/>
+		    					<p class="lefloat hotSaleTitle">&lt;&lt;从你的世界路过&gt;&gt;</p>
+		    					
+		    				</div>
+		    				<div class="hotSale_con clear displayNone">
+		    					<p class="hotSale_num bgGrey colorWhile">7</p>
+		    					<img class="lefloat" src="img/index08_05.jpg" />
+		    				    <p class="lefloat hotSaleCon">&lt;&lt;三体&gt;&gt;刘慈欣一场科幻的史诗风暴</p>
+		    				</div>
+		    			</li>
+		    		</ul>
+		    	</div>
+		    </div>
+		    <!--广告图2-->
+		    <div class="banner2">
+		    	<img src="images/banner_02.jpg" />
+		    </div>
+		    <!--乐购·图书折扣区-->
+		    <div class="discount">
+		    	<div class="discount_title">
+		    	     <p class="fontSize20 colorWhile bgRed marginTop22">乐购<span class="marginLeft10 marginRight10">·</span>图书折扣区</p>
+		        </div>
+		        <ul class="clear">
+		        	<li class="discount_current">
+		        		<p class="discount_pic"><img src="img/22935553-1_l.jpg"/></p>
+		        		<div class="rebate">
+		        			<p class="rebate_square">8折</p>
+		        			<p class="rebate_sanjiao current"></p>
+		        		</div>
+		        		
+		        		<p class="fontSize14 marginLeft10">白夜行  东野上吾</p>
+		        		<div class="fontSize14 colorRed marginLeft10 clear">
+		        			<p class="lefloat">推荐：</p>
+		        			<div class="xingxing_pic lefloat">
+		        				<img src="img/4_03.jpg"/>
+		        				<img class="displayNone" src="img/xingxing_1_03.jpg"/>
+		        			</div>
+		        			
+		        		</div>
+		        		<p class="fontSize24 colorRed marginLeft10">￥38 &emsp;<del class="colorDeepGrey">￥58</del></p>
+		        	</li>
+		        	<li>
+		        		<p class="discount_pic"><img src="img/22935553-1_l.jpg"/></p>
+		        		<div class="rebate">
+		        			<p class="rebate_square">8折</p>
+		        			<p class="rebate_sanjiao"></p>
+		        		</div>
+		        		
+		        		<p class="fontSize14 marginLeft10">白夜行  东野上吾</p>
+		        		<div class="fontSize14 colorRed marginLeft10 clear">
+		        			<p class="lefloat">推荐：</p>
+		        			<div class="xingxing_pic lefloat">
+		        				<img class="displayNone" src="img/4_03.jpg"/>
+		        				<img  src="img/xingxing_1_03.jpg"/>
+		        			</div>
+		        		</div>
+		        		<p class="fontSize24 colorRed marginLeft10">￥38 &emsp;<del class="colorDeepGrey">￥58</del></p>
+		        	</li>
+		        	<li>
+		        		<p class="discount_pic"><img src="img/22935553-1_l.jpg"/></p>
+		        		<div class="rebate">
+		        			<p class="rebate_square">8折</p>
+		        			<p class="rebate_sanjiao"></p>
+		        		</div>
+		        		
+		        		<p class="fontSize14 marginLeft10">白夜行  东野上吾</p>
+		        		<div class="fontSize14 colorRed marginLeft10 clear">
+		        			<p class="lefloat">推荐：</p>
+		        			<div class="xingxing_pic lefloat">
+		        				<img class="displayNone" src="img/4_03.jpg"/>
+		        				<img  src="img/xingxing_1_03.jpg"/>
+		        			</div>
+		        		</div>
+		        		<p class="fontSize24 colorRed marginLeft10">￥38 &emsp;<del class="colorDeepGrey">￥58</del></p>
+		        	</li>
+		        	<li>
+		        		<p class="discount_pic"><img src="img/22935553-1_l.jpg"/></p>
+		        		<div class="rebate">
+		        			<p class="rebate_square">8折</p>
+		        			<p class="rebate_sanjiao"></p>
+		        		</div>
+		        		
+		        		<p class="fontSize14 marginLeft10">白夜行  东野上吾</p>
+		        		<div class="fontSize14 colorRed marginLeft10 clear">
+		        			<p class="lefloat">推荐：</p>
+		        			<div class="xingxing_pic lefloat">
+		        				<img class="displayNone" src="img/4_03.jpg"/>
+		        				<img  src="img/xingxing_1_03.jpg"/>
+		        			</div>
+		        		</div>
+		        		<p class="fontSize24 colorRed marginLeft10">￥38 &emsp;<del class="colorDeepGrey">￥58</del></p>
+		        	</li>
+		        	<li>
+		        		<p class="discount_pic"><img src="img/22935553-1_l.jpg"/></p>
+		        		<div class="rebate">
+		        			<p class="rebate_square">8折</p>
+		        			<p class="rebate_sanjiao"></p>
+		        		</div>
+		        		
+		        		<p class="fontSize14 marginLeft10">白夜行  东野上吾</p>
+		        		<div class="fontSize14 colorRed marginLeft10 clear">
+		        			<p class="lefloat">推荐：</p>
+		        			<div class="xingxing_pic lefloat">
+		        				<img class="displayNone" src="img/4_03.jpg"/>
+		        				<img  src="img/xingxing_1_03.jpg"/>
+		        			</div>
+		        		</div>
+		        		<p class="fontSize24 colorRed marginLeft10">￥38 &emsp;<del class="colorDeepGrey">￥58</del></p>
+		        	</li>
+		        	<li>
+		        		<p class="discount_pic"><img src="img/22788959-1_l.jpg"/></p>
+		        		<div class="rebate">
+		        			<p class="rebate_square">6折</p>
+		        			<p class="rebate_sanjiao"></p>
+		        		</div>
+		        		
+		        		<p class="fontSize14 marginLeft10">白夜行  东野上吾</p>
+		        		<div class="fontSize14 colorRed marginLeft10 clear">
+		        			<p class="lefloat">推荐：</p>
+		        			<div class="xingxing_pic lefloat">
+		        				<img class="displayNone" src="img/4_03.jpg"/>
+		        				<img  src="img/xingxing_1_03.jpg"/>
+		        			</div>
+		        		</div>
+		        		<p class="fontSize24 colorRed marginLeft10">￥30 &emsp;<del class="colorDeepGrey">￥46</del></p>
+		        	</li>
+		        	<li>
+		        		<p class="discount_pic"><img src="img/22788959-1_l.jpg"/></p>
+		        		<div class="rebate">
+		        			<p class="rebate_square">6折</p>
+		        			<p class="rebate_sanjiao"></p>
+		        		</div>
+		        		
+		        		<p class="fontSize14 marginLeft10">白夜行  东野上吾</p>
+		        		<div class="fontSize14 colorRed marginLeft10 clear">
+		        			<p class="lefloat">推荐：</p>
+		        			<div class="xingxing_pic lefloat">
+		        				<img class="displayNone" src="img/4_03.jpg"/>
+		        				<img  src="img/xingxing_1_03.jpg"/>
+		        			</div>
+		        		</div>
+		        		<p class="fontSize24 colorRed marginLeft10">￥30 &emsp;<del class="colorDeepGrey">￥46</del></p>
+		        	</li>
+		        	<li>
+		        		<p class="discount_pic"><img src="img/22788959-1_l.jpg"/></p>
+		        		<div class="rebate">
+		        			<p class="rebate_square">6折</p>
+		        			<p class="rebate_sanjiao"></p>
+		        		</div>
+		        		
+		        		<p class="fontSize14 marginLeft10">白夜行  东野上吾</p>
+		        		<div class="fontSize14 colorRed marginLeft10 clear">
+		        			<p class="lefloat">推荐：</p>
+		        			<div class="xingxing_pic lefloat">
+		        				<img class="displayNone" src="img/4_03.jpg"/>
+		        				<img  src="img/xingxing_1_03.jpg"/>
+		        			</div>
+		        		</div>
+		        		<p class="fontSize24 colorRed marginLeft10">￥30 &emsp;<del class="colorDeepGrey">￥46</del></p>
+		        	</li>
+		        	<li>
+		        		<p class="discount_pic"><img src="img/22788959-1_l.jpg"/></p>
+		        		<div class="rebate">
+		        			<p class="rebate_square">6折</p>
+		        			<p class="rebate_sanjiao"></p>
+		        		</div>
+		        		
+		        		<p class="fontSize14 marginLeft10">白夜行  东野上吾</p>
+		        		<div class="fontSize14 colorRed marginLeft10 clear">
+		        			<p class="lefloat">推荐：</p>
+		        			<div class="xingxing_pic lefloat">
+		        				<img class="displayNone" src="img/4_03.jpg"/>
+		        				<img  src="img/xingxing_1_03.jpg"/>
+		        			</div>
+		        		</div>
+		        		<p class="fontSize24 colorRed marginLeft10">￥30 &emsp;<del class="colorDeepGrey">￥46</del></p>
+		        	</li>
+		        	<li>
+		        		<p class="discount_pic"><img src="img/22788959-1_l.jpg"/></p>
+		        		<div class="rebate">
+		        			<p class="rebate_square">6折</p>
+		        			<p class="rebate_sanjiao"></p>
+		        		</div>
+		        		
+		        		<p class="fontSize14 marginLeft10">白夜行  东野上吾</p>
+		        		<div class="fontSize14 colorRed marginLeft10 clear">
+		        			<p class="lefloat">推荐：</p>
+		        			<div class="xingxing_pic lefloat">
+		        				<img class="displayNone" src="img/4_03.jpg"/>
+		        				<img  src="img/xingxing_1_03.jpg"/>
+		        			</div>
+		        		</div>
+		        		<p class="fontSize24 colorRed marginLeft10">￥30 &emsp;<del class="colorDeepGrey">￥46</del></p>
+		        	</li>
+		        </ul>
+		    </div>
+		    <!--新书上架-->
+		    <div class="newBook clear marginTop40">
+				<div class="lefloat">
+					<div class="common_title">
+						<p class="fontSize22"><span>新</span>书上架</p>
+				    </div>
+					<ul class="newBookCon lefloat clear">
+						<li class="newBookCon_list lefloat">
+						    <p><img src="img/22928335-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="newBookCon_list lefloat">
+						    <p><img src="img/22928335-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="newBookCon_list lefloat">
+						    <p><img src="img/22928335-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="newBookCon_list lefloat">
+						    <p><img src="img/22928335-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="newBookCon_list lefloat">
+						    <p><img src="img/22928335-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="newBookCon_list lefloat">
+						    <p><img src="img/22499729-1_l_5.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="newBookCon_list lefloat">
+						    <p><img src="img/22499729-1_l_5.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="newBookCon_list lefloat">
+						    <p><img src="img/22499729-1_l_5.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="newBookCon_list lefloat">
+						    <p><img src="img/22499729-1_l_5.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="newBookCon_list lefloat">
+						    <p><img src="img/22499729-1_l_5.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="newBookRight lefloat">
+					<p class="fontSize24 textAlign color808080">新书畅销榜</p>
+					<ul id="hot_sale">
+						<li class="color808080 clear">
+							<div class="list displayNone clear">
+								<p class="num colorRed fontSize14 lefloat">1</p>
+							    <p class="hot_list fontSize16 rigfloat">就喜欢你看不惯我&nbsp;又干不</p>
+							</div>
+							<div class="listCon clear">
+								<p class="num colorRed fontSize14 lefloat">1</p>
+								<div class="hot_con lefloat clear">
+									<p class="list_pic lefloat"><img src="img/23353342-1_l.jpg"/></p>
+								    <p class="list_con lefloat">
+								    	从你的全世界路过<br />
+										入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发，超4亿次阅读
+								    </p>
+								</div>
+							</div>
+						</li>
+						<li class="color808080 clear">
+							<div class="list clear">
+								<p class="num colorRed fontSize14 lefloat">2</p>
+							    <p class="hot_list fontSize16 lefloat">就喜欢你看不惯我&nbsp;又干不</p>
+							</div>
+							<div class="listCon clear displayNone">
+								<p class="num colorRed fontSize14 lefloat">2</p>
+								<div class="hot_con lefloat clear">
+									<p class="list_pic lefloat"><img src="img/23353342-1_l.jpg"/></p>
+								    <p class="list_con lefloat">
+								    	从你的全世界路过<br />
+										入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发，超4亿次阅读
+								    </p>
+								</div>
+							</div>
+						</li>
+						<li class="color808080 clear">
+							<div class="list clear">
+								<p class="num colorRed fontSize14 lefloat">3</p>
+							    <p class="hot_list fontSize16 lefloat">就喜欢你看不惯我&nbsp;又干不</p>
+							</div>
+							<div class="listCon clear displayNone">
+								<p class="num colorRed fontSize14 lefloat">3</p>
+								<div class="hot_con lefloat clear">
+									<p class="list_pic lefloat"><img src="img/23353342-1_l.jpg"/></p>
+								    <p class="list_con lefloat">
+								    	从你的全世界路过<br />
+										入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发，超4亿次阅读
+								    </p>
+								</div>
+							</div>
+						</li>
+						<li class="color808080 clear">
+							<div class="list clear">
+								<p class="num fontSize14 lefloat">4</p>
+							    <p class="hot_list fontSize16 lefloat">就喜欢你看不惯我&nbsp;又干不</p>
+							</div>
+							<div class="listCon clear displayNone">
+								<p class="num fontSize14 lefloat">4</p>
+								<div class="hot_con lefloat clear">
+									<p class="list_pic lefloat"><img src="img/23353342-1_l.jpg"/></p>
+								    <p class="list_con lefloat">
+								    	从你的全世界路过<br />
+										入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发，超4亿次阅读
+								    </p>
+								</div>
+							</div>
+						</li>
+						<li class="color808080 clear">
+							<div class="list clear">
+								<p class="num fontSize14 lefloat">5</p>
+							    <p class="hot_list fontSize16 lefloat">就喜欢你看不惯我&nbsp;又干不</p>
+							</div>
+							<div class="listCon clear displayNone">
+								<p class="num fontSize14 lefloat">5</p>
+								<div class="hot_con lefloat clear">
+									<p class="list_pic lefloat"><img src="img/23353342-1_l.jpg"/></p>
+								    <p class="list_con lefloat">
+								    	从你的全世界路过<br />
+										入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发，超4亿次阅读
+								    </p>
+								</div>
+							</div>
+						</li>
+						<li class="color808080 clear">
+							<div class="list clear">
+								<p class="num fontSize14 lefloat">6</p>
+							    <p class="hot_list fontSize16 lefloat">就喜欢你看不惯我&nbsp;又干不</p>
+							</div>
+							<div class="listCon clear displayNone">
+								<p class="num fontSize14 lefloat">6</p>
+								<div class="hot_con lefloat clear">
+									<p class="list_pic lefloat"><img src="img/23353342-1_l.jpg"/></p>
+								    <p class="list_con lefloat">
+								    	从你的全世界路过<br />
+										入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发，超4亿次阅读
+								    </p>
+								</div>
+							</div>
+						</li>
+						<li class="color808080 clear no_border">
+							<div class="list clear">
+								<p class="num fontSize14 lefloat">7</p>
+							    <p class="hot_list fontSize16 lefloat">就喜欢你看不惯我&nbsp;又干不</p>
+							</div>
+							<div class="listCon clear displayNone">
+								<p class="num fontSize14 lefloat">7</p>
+								<div class="hot_con lefloat clear">
+									<p class="list_pic lefloat"><img src="img/23353342-1_l.jpg"/></p>
+								    <p class="list_con lefloat">
+								    	从你的全世界路过<br />
+										入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发，超4亿次阅读
+								    </p>
+								</div>
+							</div>
+						</li>
+						<li class="color808080 clear">
+							<div class="list clear borderN">
+								<p class="num fontSize14 lefloat">8</p>
+							    <p class="hot_list fontSize16 lefloat">就喜欢你看不惯我&nbsp;又干不</p>
+							</div>
+							<div class="listCon clear displayNone borderN">
+								<p class="num fontSize14 lefloat">8</p>
+								<div class="hot_con lefloat clear">
+									<p class="list_pic lefloat"><img src="img/23353342-1_l.jpg"/></p>
+								    <p class="list_con lefloat">
+								    	从你的全世界路过<br />
+										入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐，1500万次转发，超4亿次阅读
+								    </p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		    <!--独家提供-->
+		    <div class="exclusive_provision marginTop50">
+					<div class="common_title clear">
+						<p class="lefloat fontSize22"><span>独</span>家提供</p>
+						<ul class="exclusive_provision_list rigfloat">
+							<li class="current">货币金融</li>
+							<li>社会文学</li>
+							<li>科学技术</li>
+							<li>儿童文学</li>
+							<li>教学参辅</li>
+							<li>生活</li>
+							<li>小说</li>
+						</ul>
+				    </div>
+				    <div class="all_exclusive_provisionCon">
+						<ul class="exclusive_provisionCon clear">
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯111</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							
+						</ul>
+						<ul class="exclusive_provisionCon displayNone clear">
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯222</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							
+						</ul>
+						<ul class="exclusive_provisionCon displayNone clear">
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯333</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							
+						</ul>
+						<ul class="exclusive_provisionCon displayNone clear">
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯444</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							
+						</ul>
+						<ul class="exclusive_provisionCon displayNone clear">
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯555</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							
+						</ul>
+						<ul class="exclusive_provisionCon displayNone clear">
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯666</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							
+						</ul>
+						<ul class="exclusive_provisionCon displayNone clear">
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯777</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/23418061-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							<li class="exclusive_provisionCon_list lefloat">
+							    <p><img src="img/22913031-1_l.jpg"/></p>
+							    <p class="fontSize18">查理 斯密斯</p>
+							    <p class="color808080 fontSize14">中国邮电出版社</p>
+							    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+							</li>
+							
+						</ul>
+				    </div>
+			</div>
+		     <!--猜你喜欢-->
+		    <div class="like marginTop50">
+				<div class="common_title clear">
+					<p class="lefloat fontSize22"><span>猜</span>你喜欢</p>
+					<p class="huanpi rigfloat"><img src="img/huanyipi_03.jpg"/></p>
+			    </div>
+			    <div class="all_likeCon">
+					<ul class="likeCon clear">
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22790777-1_l_1.jpg"/></p>
+						    <p class="fontSize18">11111查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22790777-1_l_1.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22790777-1_l_1.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22790777-1_l_1.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22790777-1_l_1.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22790777-1_l_1.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22876893-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22876893-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22876893-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22876893-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22876893-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22876893-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+					</ul>
+					<ul class="likeCon clear displayNone">
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22790777-1_l_1.jpg"/></p>
+						    <p class="fontSize18">2222查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22790777-1_l_1.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22790777-1_l_1.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22790777-1_l_1.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22790777-1_l_1.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22790777-1_l_1.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22876893-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22876893-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22876893-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22876893-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22876893-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+						<li class="likeCon_list lefloat">
+						    <p><img src="img/22876893-1_l.jpg"/></p>
+						    <p class="fontSize18">查理 斯密斯</p>
+						    <p class="color808080 fontSize14">中国邮电出版社</p>
+						    <p><span class="colorRed fontSize18">￥49 </span>&emsp;<del class="colorDeepGrey fontSize18"> ￥79</del></p>
+						</li>
+				    </ul>
+			    </div>
+			</div>
+			<!--人文社科精选-->
+			<ul class="social_science clear">
+				<li class="clear">
+					<div class="social_science_con lefloat">
+						<p class="fontSize16">人文社科精选</p>
+						<p class="fontSize14 colorDeepGrey">书好价优</p>
+						<p class="agio">满三件折上7折</p>
+					</div>
+					<p class="social_science_pic lefloat"><img src="img/book_001_03.jpg"/></p>
+				</li>
+				<li class="clear">
+					<div class="social_science_con lefloat">
+						<p class="fontSize16">人文社科精选</p>
+						<p class="fontSize14 colorDeepGrey">书好价优</p>
+						<p class="agio">满三件折上7折</p>
+					</div>
+					<p class="social_science_pic lefloat"><img src="img/book_001_03.jpg"/></p>
+				</li>
+				<li class="clear">
+					<div class="social_science_con lefloat">
+						<p class="fontSize16">人文社科精选</p>
+						<p class="fontSize14 colorDeepGrey">书好价优</p>
+						<p class="agio">满三件折上7折</p>
+					</div>
+					<p class="social_science_pic lefloat"><img src="img/book_001_03.jpg"/></p>
+				</li>
+				<li class="clear">
+					<div class="social_science_con lefloat">
+						<p class="fontSize16">人文社科精选</p>
+						<p class="fontSize14 colorDeepGrey">书好价优</p>
+						<p class="agio">满三件折上7折</p>
+					</div>
+					<p class="social_science_pic lefloat"><img src="img/book_001_03.jpg"/></p>
+				</li>
+				<li class="clear">
+					<div class="social_science_con lefloat">
+						<p class="fontSize16">人文社科精选</p>
+						<p class="fontSize14 colorDeepGrey">书好价优</p>
+						<p class="agio">满三件折上7折</p>
+					</div>
+					<p class="social_science_pic lefloat"><img src="img/book_001_03.jpg"/></p>
+				</li>
+				<li class="clear">
+					<div class="social_science_con lefloat">
+						<p class="fontSize16">人文社科精选</p>
+						<p class="fontSize14 colorDeepGrey">书好价优</p>
+						<p class="agio">满三件折上7折</p>
+					</div>
+					<p class="social_science_pic lefloat"><img src="img/book_001_03.jpg"/></p>
+				</li>
+				<p class="cl"></p>
+			</ul>
+			<!--广告图3-->
+		    <div class="banner2">
+		    	<img src="images/banner_02.jpg" />
+		    </div>
+		</div>   
+		<!--尾部-->
+		<div class="footer widthAuto">
+			<div class="footer_top widthAuto">
+				<ul class="clear marginAuto">
+					<li><a href="#"><img src="img/222_11.png"/></a></li>
+					<li><a href="#"><img src="img/222_13.png"/></a></li>
+					<li><a href="#"><img src="img/222_15.png"/></a></li>
+					<li><a href="#"><img src="img/222_17.png"/></a></li>
+			    </ul>
+			</div>
+			<div class="footer_con width1200 marginAuto">
+				<ul class="clear">
+					<li>
+						<a class="fontSize18">购物指南</a>
+						<a class="fontSize16">购物流程</a>
+						<a class="fontSize16">发票制度</a>
+						<a class="fontSize16">账号管理</a>
+						<a class="fontSize16">会员优惠</a>
+					</li>
+					<li>
+						<a class="fontSize18">购物指南</a>
+						<a class="fontSize16">购物流程</a>
+						<a class="fontSize16">发票制度</a>
+						<a class="fontSize16">账号管理</a>
+						<a class="fontSize16">会员优惠</a>
+					</li>
+					<li>
+						<a class="fontSize18">购物指南</a>
+						<a class="fontSize16">购物流程</a>
+						<a class="fontSize16">发票制度</a>
+						<a class="fontSize16">账号管理</a>
+						<a class="fontSize16">会员优惠</a>
+					</li>
+					<li>
+						<a class="fontSize18">购物指南</a>
+						<a class="fontSize16">购物流程</a>
+						<a class="fontSize16">发票制度</a>
+						<a class="fontSize16">账号管理</a>
+						<a class="fontSize16">会员优惠</a>
+					</li>
+					<li>
+						<a class="fontSize18">购物指南</a>
+						<a class="fontSize16">购物流程</a>
+						<a class="fontSize16">发票制度</a>
+						<a class="fontSize16">账号管理</a>
+						<a class="fontSize16">会员优惠</a>
+					</li>
+				</ul>
+				<img class="footer_logo" src="img/logo_00.png"/>
+				<div class="copyright clear marginAuto">
+					<p><a>公司简介</a></p>
+					<p><a>investor Relations</a></p>
+					<p><a>网站联盟</a></p>
+					<p><a>乐购招商</a></p>
+					<p><a>机构销售</a></p>
+					<p><a>手机乐购</a></p>
+					<p><a>官方Blog</a></p>
+					<p><a>热词搜索</a></p>
+				</div>
+				<p class="copyright_con">Gopyright&nbsp;(c)&nbsp;乐购网&nbsp;2004-2016， A||&nbsp;Rights&nbsp;Reserved</p>
+			</div>
+		</div>
+	</body>
+</html>
